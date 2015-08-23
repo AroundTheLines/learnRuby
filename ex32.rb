@@ -4,7 +4,7 @@ change = [1, 'pennies', 2, 'dimes', 3, 'quarters']
 
 # this first kind of for-loop goes through a list
 # in a more traditional style in other languages
-for number in the_count
+the_count.each do |number|
 	puts "This is count #{number}"
 end
 
