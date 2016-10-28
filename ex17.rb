@@ -15,7 +15,7 @@ $stdin.gets
 out_file = open(to_file, 'w')
 out_file.write(indata)
 
-puts "Alright, all done."
+puts "Alright, all done!"
 
 out_file.close
 in_file.close
